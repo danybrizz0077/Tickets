@@ -47,7 +47,7 @@ class Login : AppCompatActivity() {
         }
 
         btnRegistrar.setOnClickListener {
-            val pantallaPrincipal = Intent(this, Tickets::class.java)
+            val pantallaPrincipal = Intent(this, Activity_Tickets::class.java)
             CoroutineScope(Dispatchers.IO).launch {
                 val objConexion = ClaseConexion().cadenaConexion()
                 val ComprobarUsuario =
@@ -62,7 +62,7 @@ class Login : AppCompatActivity() {
                     println("Usuario no registrado")
                 }
                 btnRegistrar.setOnClickListener {
-                    val pantallaLogin = Intent(this@Login, Tickets::class.java)
+                    val pantallaLogin = Intent(this@Login, Activity_Tickets::class.java)
 
                     startActivity(pantallaLogin)
                 }

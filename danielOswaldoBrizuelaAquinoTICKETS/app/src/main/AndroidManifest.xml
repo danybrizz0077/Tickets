@@ -15,8 +15,13 @@
         android:theme="@style/Theme.DanielOswaldoBrizuelaAquinoTICKETS"
         tools:targetApi="31">
         <activity
-            android:name=".Tickets"
+            android:name=".Activity_Tickets"
             android:exported="false" />
+
+        <activity
+            android:name=".ItemCard"
+            android:exported="false" />
+
         <activity
             android:name=".Login"
             android:exported="false" />

@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#392C50"
+    android:background="#B289FA"
     tools:context=".MainActivity">
 
 
@@ -56,8 +56,8 @@
         android:layout_marginBottom="24dp"
         android:text="contraseña"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txtContra"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.14"
@@ -87,8 +87,8 @@
         android:layout_marginBottom="20dp"
         android:text="Usuario"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txtUsuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.132"
