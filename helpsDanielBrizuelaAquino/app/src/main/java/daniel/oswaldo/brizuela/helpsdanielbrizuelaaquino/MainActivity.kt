@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         //mandar a llamar a todos los elementos de la vista
-        val txtNombre = findViewById<EditText>(R.id.txtNombre)
+        val txtNombre = findViewById<EditText>(R.id.txtUsuario)
         val txtContra = findViewById<EditText>(R.id.txtContra)
         val btnRegistrar = findViewById<Button>(R.id.btnIngresar)
 

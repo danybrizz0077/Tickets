@@ -27,7 +27,7 @@ class Login : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val txtNombre = findViewById<TextView>(R.id.txtNombre)
+        val txtNombre = findViewById<TextView>(R.id.txtUsuario)
         val txtContra = findViewById<TextView>(R.id.txtContra)
         val btnRegistrar = findViewById<Button>(R.id.btnIngresar)
 
